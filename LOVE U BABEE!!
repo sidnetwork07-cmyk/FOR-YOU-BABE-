@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #ff69b4, #ffb6c1);
+            color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+        button {
+            background: #ff1493;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+        button:hover {
+            background: #ff69b4;
+        }
+        .hearts {
+            font-size: 2em;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>I Love You, [MISTI❤️]!</h1>
+    <p>You mean the world to me. Every moment with you is a treasure. Happy Valentine's Day or just because!</p>
+    <button onclick="showSurprise()">Click for a Surprise</button>
+    <div class="hearts" id="hearts">❤️ ❤️ ❤️</div>
+
+    <script>
+        function showSurprise() {
+            document.getElementById('hearts').innerHTML = '💖💖💖 You are my everything! 💖💖💖';
+            alert('You are the love of my life! 💕');
+        }
+    </script>
+</body>
+</html>
